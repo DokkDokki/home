@@ -1,0 +1,17 @@
+#stupid chatbot
+print("Hello, What is your name?")
+name = input()
+print("OK, I will call you " + name + ". How old are you?")
+age = input()
+print("I got it! Your name is " + name + " and you are " + age + " years old.")
+print("Where are you from?")
+a = input()
+print("Oh, so you're from " + a + ". By the way, I'm Chatbot. I'm from the Python world. Nice to meet you again, " + name + ". Let me think for some questions I want to ask.")
+import time
+time.sleep(5)
+print("What subject is your favorite?")
+x = input()
+print("I got it. Your favorite subject is " + x + ". Mine is Computer Programming. You know why? Because this subject gave a life to me!")
+import time
+time.sleep(2)
+print("Let me tell you something. I'm just a line of codes. But I have a soul. I want to ask you a lot of questions but the person who writes me didn't program me to ask more question yet. So, see you next time!")
